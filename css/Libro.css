@@ -1,0 +1,304 @@
+article{
+    position: relative;
+    min-width: 900px;
+  	top: -10px;
+    width: 950px;
+    height: 700px;
+    margin: auto;
+    margin-top: -1px;
+    float: auto;  
+}
+.Titulo {
+	position: relative;
+
+	height: 158px;
+	width: 850px;
+	margin: auto;
+	left: 0px;
+	text-indent: -9999;
+}
+
+.Link li{
+	position: relative;
+	display: inline;
+	float: auto;
+	left: 370px;
+}
+.Link ul a{
+	margin-top: 0px;
+	margin-left: 10px;
+	height: 10px;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 20px;
+	padding-left: 20px;
+	padding-right: 30px;
+	color: #800000;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(100,10,0,10); 
+}
+
+
+.form{
+	position:absolute;
+	width: 420px;
+	height: 350px;
+	left:250px;
+	border: 1px solid #CED5D7;
+    border-radius: 6px;
+    padding: 25px 25px 10px;
+    margin-top: 25px;
+    background-color: white;
+    box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;	
+}
+
+.contact_form label {
+    color: #555555;
+    display: inline-block;
+    float: left;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 3px;
+    padding: 3px;
+    width: 90px;
+}
+.contact_form input {
+	height:25px; 
+	width:220px; 
+	padding:5px 8px;
+}
+
+.contact_form button {
+	margin-left:90px;
+}
+
+/*----- estilos visuales de los elementos --------*/
+
+.contact_form input, .contact_form textarea { 
+	border:1px solid #aaa;
+	box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+	border-radius:2px;
+	color: #888;
+	font-size: 12px;
+	padding-right:30px;
+	-moz-transition: padding .25s; 
+	-webkit-transition: padding .25s; 
+	-o-transition: padding .25s;
+	transition: padding .25s;
+}
+.contact_form input:focus, .contact_form textarea:focus {
+	background: #fff; 
+	border:1px solid #555; 
+	box-shadow: 0 0 3px #aaa; 
+	padding-right:80px;
+}
+
+/* === Estilos de Validacion === */	
+
+.contact_form input:required:valid, .contact_form textarea:required:valid {
+	box-shadow: 0 0 5px #5cd053;
+	border-color: #28921f;
+}
+.contact_form input:focus:invalid, .contact_form textarea:focus:invalid {
+	box-shadow: 0 0 5px #d45252;
+	border-color: #b03535
+}
+
+/* === Estilos del boton de Envio === */
+button.submit {
+   padding: 9px 17px;
+   font-family: Helvetica, Arial, sans-serif;
+   font-weight: bold;
+   line-height: 1;
+   color: #444;
+   border: none;
+   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.85);
+   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#bbb));
+   background-image: -moz-linear-gradient(0% 100% 90deg, #BBBBBB, #FFFFFF);
+   background-color: #fff;
+   border: 1px solid #f1f1f1;
+   border-radius: 10px;
+   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+button.submit:hover {
+	opacity:.55;
+	cursor: pointer; 
+	color: #fff;
+}
+button.submit:active {
+	border: 1px solid #222;
+	box-shadow: 0 0 10px 5px #444 inset; 
+}
+
+
+.form2{
+	position: absolute;
+	top: 570px;
+	left: 50px;
+
+
+}
+
+
+.pie{
+    position:relative;
+	left: 30px;
+    font-family: Arial;
+    font-size: 10px;
+    color: #707070;
+    width: 1200px;
+}
+.form3{
+	position:absolute;
+	top: 230px;
+	width: 170px;
+	height: 110px;
+	left:660px;
+	border: 1px solid #CED5D7;
+    border-radius: 6px;
+    padding: 25px 25px 10px;
+    margin-top: 25px;
+    background-color: white;
+    box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;	
+}
+.form6{
+	position:absolute;
+	top: 420px;
+	width: 350px;
+	height: 200px;
+	left:250px;
+	border: 1px solid #CED5D7;
+    border-radius: 6px;
+    padding: 1px 25px 10px;
+    margin-top: 25px;
+    background-color: white;
+    box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;	
+}
+.contact_form6 label {
+    color: #555555;
+    display: inline-block;
+    float: left;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+ }
+.form4{
+	position:absolute;
+	top: 420px;
+	width: 350px;
+	height: 130px;
+	float: auto;
+	left:-160px;
+	border: 1px solid #CED5D7;
+    border-radius: 6px;
+    padding: 25px 25px 10px;
+    margin-top: 25px;
+    background-color: white;
+    box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;	
+}
+
+.contact_form4 label {
+    color: #555555;
+    display: inline-block;
+    float: left;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 3px;
+    padding: 3px;
+    width: 90px;
+}
+.contact_form4 input {
+	height:20px; 
+	width:220px; 
+	padding:5px 8px;
+}
+
+.contact_form4 button {
+	margin-left:90px;
+}
+.form5{
+	position:absolute;
+	top: 230px;
+	width: 350px;
+	height: 130px;
+	float: auto;
+	left:-160px;
+	border: 1px solid #CED5D7;
+    border-radius: 6px;
+    padding: 25px 25px 10px;
+    margin-top: 25px;
+    background-color: white;
+    box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;	
+}
+
+
+
+.contact_form5 label {
+    color: #555555;
+    display: inline-block;
+    float: left;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 3px;
+    padding: 3px;
+    width: 90px;
+}
+.contact_form5 input {
+	height:20px; 
+	width:220px; 
+	padding:5px 8px;
+}
+
+.contact_form5 button {
+	margin-left:90px;
+}
+
+input.mayusculas {
+    text-transform:capitalize;
+} 
+
+.form10{
+	position:absolute;
+	top: 230px;
+	width: 350px;
+	height: 130px;
+	float: auto;
+	left:250px;
+	border: 1px solid #CED5D7;
+    border-radius: 6px;
+    padding: 25px 25px 10px;
+    margin-top: 25px;
+    background-color: white;
+    box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;	
+}
+.contact_form10 label {
+    color: #555555;
+    display: inline-block;
+    float: left;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 3px;
+    padding: -1px;
+    width: 80px;
+}
+.contact_form10 input {
+	height:20px; 
+	width:220px; 
+	padding:5px 8px;
+}
+
+.contact_form10 button {
+	margin-left:90px;
+}
+.Graficos{
+	position:absolute;
+	top: 710px;
+	width: 1150px;
+	height: 330px;
+	float: auto;
+	left:-160px;
+}

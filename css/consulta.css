@@ -1,0 +1,67 @@
+
+
+.Titulo h2 {
+	position: absolute;
+	background: url(../img/consulta.png) no-repeat;
+	height: 128px;
+	width: 806px;
+	margin: auto;
+	text-indent: -9999;
+	left: 500px;
+}
+
+
+
+
+
+.bucador{
+	position:absolute;
+	width: 590px;
+	height: 560px;
+		text-align:center;
+	float: left;
+	top: 140px;
+	left: 250px;
+	right:-100px;
+	border: 1px solid #CED5D7;
+    border-radius: 6px;
+    padding: 25px 25px 10px;
+    margin-top: 25px;
+    background-color: white;
+    box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;	
+}
+.usuario{
+	position:absolute;
+	width: 250px;
+	height: 320px;
+	float: right;
+	text-align:center;
+	top: 140px;
+	left: 950px;
+	border: 1px solid #CED5D7;
+    border-radius: 6px;
+    padding: 25px 25px 10px;
+    margin-top: 25px;
+    background-color: white;
+    box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;	
+}
+
+.una
+{
+	position:absolute;
+	top:180px;
+	left:720px;
+}
+
+.una1
+{
+	position:absolute;
+	top:180px;
+	left:300px;
+}
+.dos
+{
+	position:absolute;
+	top:550px;
+	left:680px;
+}

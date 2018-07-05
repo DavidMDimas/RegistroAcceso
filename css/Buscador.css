@@ -1,0 +1,19 @@
+.RR li{
+	position: relative;
+	display: inline;
+	left: -20px;
+	top: 10px; 
+}
+.RR ul a{
+	margin-top: 0px;
+	margin-left: 10px;
+	height: 10px;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 20px;
+	padding-left: 20px;
+	padding-right: 30px;
+	color: #800000;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(100,10,0,10); 
+	}

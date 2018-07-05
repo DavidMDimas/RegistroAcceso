@@ -1,0 +1,230 @@
+
+.Cuerpo{
+    background: url(../images/tesifondo.jpg)no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 100%;
+}
+article{
+    position: relative;
+    padding: 0px;
+    width: 950px;
+    height: 700px;
+    margin: auto;
+    margin-top: -1px;
+    float: auto;  
+}
+  
+
+.Titulo h2 {
+	background: url() no-repeat;
+	height: 128px;
+	width: 806px;
+	margin: auto;
+	text-indent: -9999;
+
+}
+#Principal{
+    position: relative;
+    top: -180px;
+}
+.Sof{
+    position: absolute;
+    padding-left:75px;
+    top:340px;
+    margin: auto;
+
+}
+.logo{
+    position: absolute;
+    padding-left:75px;
+    top:740px;
+    margin: auto;
+}
+
+.Link li{
+    position: relative;
+    float: center;
+    top: -200px;
+	display: inline;
+    margin: auto; 
+}
+.Link ul a{
+	margin-top: 0px;
+	margin-left: 10px;
+	height: 10px;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 20px;
+	padding-left: 20px;
+	padding-right: 30px;
+	color: #800000;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px rgba(100,10,0,10); 
+}
+.form{
+    position:absolute;
+    width:420px;
+    height: 175px;
+    left: 250px;
+    margin: auto;
+    top:300px;
+    border: 1px solid #CED5D7;
+    border-radius: 6px;
+    padding: 20px 20px 20px;
+    margin-top: 25px;
+    background-color: white;
+    box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset; 
+}
+
+
+
+.contact_form h2 {
+    background: none repeat scroll 10 10 #F3F3F3;
+    border-radius: 5px;
+    color: #5CD053;
+    display: block;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: -25px;
+    text-shadow: 1px 1px 1px #CCCCCC;
+    width: 430px;
+    margin-top: -10px;
+}
+/*--- estilos para los ul y li del formulario ---*/
+.contact_form ul {
+    width:750px;
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+}
+.contact_form li{
+    padding:10px; 
+    
+    
+} 
+.contact_form label {
+    color: #555555;
+    display: inline-block;
+    float: left;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: -30px;
+    padding: 3px;
+    width: 90px;
+}
+.contact_form input {
+    height:30px; 
+    width:222px; 
+    padding:5px 8px;
+    margin-top: -50px;
+}
+.contact_form textarea {
+    padding:8px; 
+    width:300px;
+}
+.contact_form button {
+    margin-left:70px;
+    margin-top: -60px;
+}
+
+/*----- estilos visuales de los elementos --------*/
+
+.contact_form input, .contact_form textarea { 
+    border:1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius:2px;
+    color: #888;
+    font-size: 12px;
+    padding-right:30px;
+    -moz-transition: padding .25s; 
+    -webkit-transition: padding .25s; 
+    -o-transition: padding .25s;
+    transition: padding .25s;
+}
+.contact_form input:focus, .contact_form textarea:focus {
+    background: #fff; 
+    border:1px solid #555; 
+    box-shadow: 0 0 3px #aaa; 
+    padding-right:80px;
+}
+
+/* === Estilos de Validacion === */ 
+
+.contact_form input:required:valid, .contact_form textarea:required:valid {
+    box-shadow: 0 0 5px #5cd053;
+    border-color: #28921f;
+}
+.contact_form input:focus:invalid, .contact_form textarea:focus:invalid {
+    box-shadow: 0 0 5px #d45252;
+    border-color: #b03535
+}
+
+/* === Estilos del boton de Envio === */
+button.submit {
+   padding: 9px 17px;
+   font-family: Helvetica, Arial, sans-serif;
+   font-weight: bold;
+   line-height: 1;
+   color: #444;
+   border: none;
+   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.85);
+   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#bbb));
+   background-image: -moz-linear-gradient(0% 100% 90deg, #BBBBBB, #FFFFFF);
+   background-color: #fff;
+   border: 1px solid #f1f1f1;
+   border-radius: 10px;
+   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+button.submit:hover {
+    opacity:.55;
+    cursor: pointer; 
+    color: #fff;
+}
+button.submit:active {
+    border: 1px solid #222;
+    box-shadow: 0 0 10px 5px #444 inset; 
+}
+.pie{
+    position: absolute;
+    top: 700px;
+    left: 60px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #800000;
+}
+/*--copyright start here--*/
+
+.copyright {
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.copyright p {
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+
+.copyright p a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.copyright p a:hover {
+    color: #ff3366;
+    text-decoration: none;
+}
+
+
+/*--footer end here--*/
+

@@ -1,0 +1,85 @@
+<!--Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Administrador</title>
+    <script src="js/jquery.min.js"></script>
+    <!-- Custom Theme files -->
+    <link href="css/stylelogin.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- for-mobile-apps -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="" />
+    <!-- //for-mobile-apps -->
+    <!--Google Fonts-->
+    <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <script src="js/jquery.min.js"></script>
+</head>
+
+<div class="navbar-nav navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <a class="navbar-brand" href="index.php"> Biblioteca TESi</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="index.php"><i class="icon-home icon-white"></i> Inicio</a></li>
+                <li><a href="Mod/Preregistro.php"><i class="icon-th icon-white"></i> Pre-Registro</a></li>
+                <li class="active"><a href="php/Buscador.php"><i class="icon-lock icon-white"></i> Consulta de Libros</a></li>
+                <li><a href="login.html"><i class="icon-user icon-white"></i> Administrador</a></li>
+
+            </ul>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+</div>
+
+<body>
+    <!--header start here-->
+    <div class="header">
+        <div class="header-main">
+            <h1>Biblioteca TESi</h1>
+            <div class="header-bottom">
+                <div class="header-right w3agile">
+
+                    <div class="header-left-bottom agileinfo">
+
+                        <form action="php/Bibliotecario.php" method="post">
+                            <input type="text" value="User name" name="nombre" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'User name';}" />
+                            <input type="password" value="Password" name="pass" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'password';}" />
+                            <div class="remember">
+                                <span class="checkbox1">
+							   <label class="checkbox"><input type="checkbox" name="" checked=""><i> </i>Recuerdame</label>
+						 </span>
+                                <div class="clear"> </div>
+                            </div>
+
+                            <input type="submit" value="Login">
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--header end here-->
+    <div class="copyright">
+        <p>Copyright © all rights reserved by Biblioteca TESi 2017</p>
+    </div>
+    <!--footer end here-->
+</body>
+
+</html>

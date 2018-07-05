@@ -1,0 +1,96 @@
+<?php
+	
+session_start();
+	if (isset($_SESSION['usuario'])) {
+		
+		header('Location : ../php/RegistroLibro.php');
+	}
+
+	else  {
+?>
+
+<!DOCTYPE html>
+<html oncontextmenu="return false">
+<head>
+	<title>Registro de Libros</title>
+	<!-- <meta charset="utf-8"HTTP-EQUIV="REFRESH" CONTENT="40;URL=../Inicio.html"/> -->
+	<link rel="stylesheet" type="text/css" href="../css/Login.css" />
+	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css" />
+    <script src="js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/stylelogin.css" rel="stylesheet" type="text/css" media="all"/>
+<!-- for-mobile-apps -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<meta name="keywords" content="" />
+<!-- //for-mobile-apps -->
+<!--Google Fonts-->
+<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+  
+   
+    <style type="text/css">
+      body {
+        padding-top: 30px;
+      }
+
+      pbfooter {
+        position:relative;
+      }
+    </style>
+	<script type="text/javascript" src="ajax.js"></script>	
+</head>
+
+	<body oncontextmenu="return false">
+
+		<!-- NAVIGATION MENU -->
+
+    <div class="navbar-nav navbar-inverse navbar-fixed-top">
+        <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.php"> Biblioteca TESi</a>
+        </div> 
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="../index.php"><i class="icon-home icon-white"></i> Inicio</a></li>              
+              <li><a href="Preregistro.php"><i class="icon-th icon-white"></i> Pre-Registro</a></li>
+              <li class="active"><a href="../php/Buscador.php"><i class="icon-lock icon-white"></i> Consulta de Libros</a></li>
+              <li><a href="login.html"><i class="icon-user icon-white"></i> Administrador</a></li>
+
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+    </div>
+
+		<article>
+			<center>	
+			    <h1><b><img src = "../img/Acceso.png"height="200" width="350"></b></h1>
+					 		 
+			</center>
+			
+			<div class="Formulario">
+				<img src = "../img/pass.jpg"height="50" width="50" align="center"><br>
+					<form class="contact_form" action="../php/Bibliotecario.php" method="POST"autocomplete="off"><br>
+						<h2>Bibliotecari@</h2>
+						Usuario:  <input type="text" name="nombre"required=""/></br></br>
+						Password: <input type="password" name="pass" required=""/></br></br>
+						<button class="submit" type="submit">Accesar</button>
+					</form>
+			</div>	
+					<div class="Piedepagina"><h30>Copyright © all rights reserved by Biblioteca TESi 2017</h30>
+					</div>	
+		</article>
+		<script> 
+			miFecha = new Date() 
+		</script>
+ <script type="text/javascript" src="../js/bootstrap.js"></script>
+	</body>			
+</html>
+<?php
+	}
+?>
